@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xml:base="http://www.gutenberg.org/"
+  xmlns:cc="http://web.resource.org/cc/"
+  xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:dcam="http://purl.org/dc/dcam/"
+  xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+>
+  <cc:Work rdf:about="">
+    <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
+    <rdfs:comment>Archives containing the RDF files for *all* our books can be downloaded at
+            http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog</rdfs:comment>
+  </cc:Work>
+  <pgterms:ebook rdf:about="ebooks/12888">
+    <pgterms:bookshelf>
+      <rdf:Description rdf:nodeID="N8bab3001616642fcb5a6e562dd7af920">
+        <dcam:memberOf rdf:resource="2009/pgterms/Bookshelf"/>
+        <rdf:value>Germany</rdf:value>
+      </rdf:Description>
+    </pgterms:bookshelf>
+    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">110</pgterms:downloads>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N32dcf770353548089d5b3245cd9d07bb">
+        <rdf:value>German literature -- 19th century -- Translations into English</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/12888.html.noimages">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-10-07T01:20:03.345638</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/12888"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1050539</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Ne7d1647e7a414de3bc9ee698088e2825">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/12888.rdf">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-10T05:09:47.616622</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/12888"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N368dd0c2bd7341cba54e46de77d788dd">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/rdf+xml</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15479</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N17d6ea160d6946be8e54b10f06e2a660">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
+        <rdf:value>PT</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/12888/12888-8.zip">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-07-12T12:13:36</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">364973</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nda7a3e4b62e54a87b10975b0eb4632e6">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/12888"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N5301c108a27d404484c377ed85fc7d65">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=iso-8859-1</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/12888.kindle.noimages">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nc75d4630deda4aa49467408931f7feab">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-10-07T01:20:10.910484</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1617461</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/12888"/>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:tableOfContents>The Romantic Philosophers--Fichte, Schelling, and Schleiermacher. By Frank Thilly -- Schleiermacher: On the Social Element in Religion. -- Gottlieb Fichte: The Destiny of Man. -- Addresses to the German Nation. -- von Schelling: On the Relation of the Plastic Arts to Nature. -- Later German Romanticism. By George H. Danton -- von Arnim and Brentano: The Boy's Magic Horn. (selections) -- Grimm: The Frog King, or Iron Henry -- The Wolf and the Seven Little Kids -- Rapunzel -- Haensel and Grethel -- The Fisherman and His Wife -- Arndt: Song of the Fatherland. -- Union Song. -- Körner: Men and Knaves. -- Lützow's Wild Band. -- Prayer During Battle. -- von Schenkendorf: The Mother Tongue. -- Spring Greeting to the Fatherland. -- Freedom. -- Uhland: The Chapel. -- The Shepherd's Song on the Lord's Day. -- The Castle by the Sea. -- Song of the Mountain Boy. -- Departure. -- Farewell. -- The Hostess' Daughter. -- The Good Comrade. -- The White Hart. -- The Lost Church. -- Charlemagne's Voyage. -- Free Art. -- Taillefer. -- Suabian Legend. -- The Blind King. -- The Minstrel's Curse. -- The Luck of Edenhall. -- On the Death of a Child. -- von Eichendorff: The Broken Ring. -- Morning Prayer. -- From the Life of a Good-for-nothing. -- von Chamisso: The Castle of Boncourt. -- The Lion's Bride. -- Woman's Love and Life. -- The Women of Weinsberg. -- The Crucifix. -- The Old Singer. -- The Old Washerwoman. -- The Wonderful History of Peter Schlemihl. -- Hoffmann: The Golden Pot. -- Motte-Fouqué: Selections from Undine. -- Hauff: Cavalryman's Morning Song. -- The Sentinel. -- Rückert: Barbarossa. -- From My Childhood Days. -- The Spring of Love. -- He Came to Meet Me. -- The Invitation. -- Murmur Not. -- A Parable. -- Evening Song. -- Chidher. -- At Forty Years. -- Before the Doors. -- von Platen-Hallermund: The Pilgrim Before St. Just's. -- The Grave of Alaric. -- Remorse. -- Would I were Free as are My Dreams. -- Sonnet.</dcterms:tableOfContents>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/12888.txt.utf-8">
+        <dcterms:isFormatOf rdf:resource="ebooks/12888"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">973553</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-10-07T01:20:02.228646</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N313432c9d9924990bf3a2aed202a5fbb">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/12888.epub.noimages">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-10-07T01:20:04.038618</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Ne2acf2d6bf024264846c74b6433281c7">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/12888"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">404857</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <marcrel:edt>
+      <pgterms:agent rdf:about="2009/agents/3853">
+        <pgterms:name>Francke, Kuno</pgterms:name>
+        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/Kuno_Francke"/>
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1855</pgterms:birthdate>
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1930</pgterms:deathdate>
+      </pgterms:agent>
+    </marcrel:edt>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/12888.epub.images">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N65f86af1298f4443a3b0e0b63bae04cf">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">404857</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/12888"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-10-07T01:20:03.780606</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/12888/12888.txt">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-07-12T12:13:24</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">973548</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/12888"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N2ab738be15e54a3ca995bfa9a3ff4060">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/12888/12888.zip">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">364853</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/12888"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N68f79bc1f4654e849248841f642affab">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-07-12T12:13:36</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N7d8f9230fc4c4fb4ad0fab5cadaed409">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-07-12</dcterms:issued>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/12888.html.images">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Ncb5758b05f6c4f8cbd58989e04ebdc6d">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-10-07T01:20:03.138636</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/12888"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1050539</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/12888.kindle.images">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-10-07T01:20:07.488544</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1617465</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/12888"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N877f0e22b40147a99749aff65c9c6368">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:language>
+      <rdf:Description rdf:nodeID="N3e38bb6abdb846d1b9c363e9dfca386e">
+        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">en</rdf:value>
+      </rdf:Description>
+    </dcterms:language>
+    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N4003952a22ae4b58a11f5ba41772b124">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+        <rdf:value>German literature -- 20th century -- Translations into English</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/12888/12888-8.txt">
+        <dcterms:isFormatOf rdf:resource="ebooks/12888"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-07-12T12:12:48</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">973438</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N5f58d307e4d342708321e4ea7d9775bb">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=iso-8859-1</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:rights>Public domain in the USA.</dcterms:rights>
+    <dcterms:type>
+      <rdf:Description rdf:nodeID="Nf653764d0d0a42caab7665d4851648b5">
+        <rdf:value>Text</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
+      </rdf:Description>
+    </dcterms:type>
+    <dcterms:title>The German Classics of the Nineteenth and Twentieth Centuries, Volume 05&#13;
+Masterpieces of German Literature Translated into English</dcterms:title>
+    <dcterms:license rdf:resource="license"/>
+  </pgterms:ebook>
+  <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Kuno_Francke">
+    <dcterms:description>Wikipedia</dcterms:description>
+  </rdf:Description>
+</rdf:RDF>
